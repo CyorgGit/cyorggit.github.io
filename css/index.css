@@ -6,7 +6,7 @@ body {
     font-size: 14px;
     color: #f0c7f5;
     font-family: CourierNewBold, courier;
-    background-image: url("../images/bg.gif");
+    background-image: url("../images/index/bg.gif");
 }
 a:link, a:visited {
     background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
