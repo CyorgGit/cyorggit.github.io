@@ -5,11 +5,11 @@
 body {
     font-size: 14px;
     color: #f0c7f5;
-    font-family: CourierNewBold;
-    background-image: url("images/bg.gif");
+    font-family: CourierNewBold, courier;
+    background-image: url("../images/bg.gif");
 }
 a:link, a:visited {
-    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%)
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
 }
 a:link, a:visited {
     margin: 10px;
@@ -43,26 +43,22 @@ a:hover, a:active {
   max-width: 500px;
   margin: auto;
 }
-.background {
-  
+.btn-grad {background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%)}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
 }
 
-         .btn-grad {background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%)}
-         .btn-grad {
-            margin: 10px;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
-            display: block;
-          }
-
-          .btn-grad:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-          }
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
